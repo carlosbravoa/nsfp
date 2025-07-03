@@ -4,8 +4,10 @@ A command-line player of Nintendo NES/Famicom music files (.nsf/.nsfe)
 
 Based on the Game Music Emu library.
 
-This branch includes changes to:
-- `cxxopts.h` to allow it compile (See [nsfp/issues/2](https://github.com/munshkr/nsfp/issues/2)
+**This is a fork of [nsfp](https://github.com/munshkr/nsfp) with some opinionated changes to make it work in the latest Ubuntu versions.**
+
+**This branch includes changes to:**
+- `cxxopts.h` to allow it compile (See [nsfp/issues/2](https://github.com/munshkr/nsfp/issues/2))
 - main.cc to remove ncurses dependency and allow the keyboard to work again (it was ignored completely on latest versions of Ubuntu and Debian). It was fixed by an LLM so code may be messy or have some bugs.
 
 ## Usage
